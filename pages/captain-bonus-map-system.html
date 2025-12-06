@@ -2,9 +2,261 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Captain Bonus Map System – Legend Pirates Wiki</title>
+
+    <!-- Bootstrap -->
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+    >
+
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container d-flex justify-content-between">
+        <a class="navbar-brand" href="../index.html">Legend Pirates Wiki</a>
+        <button id="themeToggle" class="btn btn-sm btn-outline-light">
+            🌙 Mode sombre
+        </button>
+    </div>
+</nav>
+
+<div class="main-container">
+
+    <!-- TITLE / DESCRIPTION -->
+    <div class="card-dark mb-4">
+        <h1 class="mb-3">Captain Bonus Map System</h1>
+        <p class="mb-2">
+            The <strong>Captain System</strong> is a way to help players save time doing Bonus Maps while being
+            <strong>online</strong>. The Captain starts at level 1 and, as he completes Bonus Maps, he levels up:
+            <strong>time per map decreases</strong> and the <strong>number of Bonus Maps per week increases</strong>.
+        </p>
+        <br>
+        <!-- CAPTAIN IMAGE (centrée) -->
+        <div class="mb-4 text-center">
+            <img src="../assets/img/captainBonusMap/Bonus_Captains.png" alt="Captain System"
+                 class="img-fluid rounded mb-4" style="max-width: 500px;">
+        </div>
+    </div>
+
+
+
+    <!-- HOW IT WORKS -->
+    <div class="card-dark mb-4">
+        <h2 class="h4 mb-3">⚙️ How does the Captain System work?</h2>
+        <p>
+            The Captain System is an <strong>online system</strong> where the player selects the Captain option and uses it
+            to run Bonus Maps automatically.
+        </p>
+        <ul>
+            <li>Players can use the Captain to complete Bonus Maps from <strong>Level 1 to Level 5</strong>.</li>
+            <li>Players can send the Bonus Maps they want to be made.</li>
+            <li><strong>Both Bonus Maps (Ocean & Inferno) will have the same time</strong> to be completed.</li>
+        </ul>
+    </div>
+
+    <!-- LOCATION -->
+    <div class="card-dark mb-4">
+        <h2 class="h4 mb-3">📍 Where is the Captain System located?</h2>
+        <p>
+            The Captain System can be accessed from the interface section dedicated to Bonus Maps / Captain.
+        </p>
+        <div class="text-center">
+            <img src="../assets/img/captainBonusMap/image.png" alt="Captain System Location"
+                 class="img-fluid rounded" style="max-width: 420px;">
+        </div>
+    </div>
+
+    <!-- HOW TO OBTAIN CAPTAIN -->
+    <div class="card-dark mb-4">
+        <h2 class="h4 mb-3">🧭 How do I obtain the Captain?</h2>
+        <ul class="mb-0">
+            <li>The Captain is obtained when a player reaches <strong>Level 10</strong> and has <strong>VIP</strong> activated.</li>
+            <li>Once you get the Captain, it levels up from <strong>Level 0 → Level 1</strong> with a cost of <strong>0 Diamonds</strong>.</li>
+        </ul>
+    </div>
+
+    <!-- WHAT CAPTAIN OFFERS BY LEVEL -->
+    <div class="card-dark mb-4">
+        <h2 class="h4 mb-3">📊 Captain Levels – Bonus Maps & Time</h2>
+
+        <div class="table-responsive">
+            <table class="table table-dark table-bordered table-striped align-middle mb-0">
+                <thead>
+                <tr>
+                    <th>Captain Level</th>
+                    <th>Bonus Maps per Week</th>
+                    <th>Time per Bonus Map (ONLINE)</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Level 1</td>
+                    <td>10</td>
+                    <td>0h 55min</td>
+                </tr>
+                <tr>
+                    <td>Level 2</td>
+                    <td>15</td>
+                    <td>0h 50min</td>
+                </tr>
+                <tr>
+                    <td>Level 3</td>
+                    <td>20</td>
+                    <td>0h 45min</td>
+                </tr>
+                <tr>
+                    <td>Level 4</td>
+                    <td>25</td>
+                    <td>0h 35min</td>
+                </tr>
+                <tr>
+                    <td>Level 5</td>
+                    <td>35</td>
+                    <td>0h 30min</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- LEVEL UP COSTS -->
+    <div class="card-dark mb-4">
+        <h2 class="h4 mb-3">💎 Captain Level Up Requirements & Cost</h2>
+
+        <div class="table-responsive mb-3">
+            <table class="table table-dark table-bordered table-striped align-middle mb-0">
+                <thead>
+                <tr>
+                    <th>From → To</th>
+                    <th>Bonus Maps Required</th>
+                    <th>Diamonds Cost</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Level 1 → Level 2</td>
+                    <td>15</td>
+                    <td>950,000</td>
+                </tr>
+                <tr>
+                    <td>Level 2 → Level 3</td>
+                    <td>25</td>
+                    <td>1,850,000</td>
+                </tr>
+                <tr>
+                    <td>Level 3 → Level 4</td>
+                    <td>45</td>
+                    <td>2,550,000</td>
+                </tr>
+                <tr>
+                    <td>Level 4 → Level 5</td>
+                    <td>70</td>
+                    <td>3,500,000</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <p class="mb-0">
+            <strong>Total Diamonds required (Level 1 → Level 5):</strong> 8,800,000
+        </p>
+    </div>
+
+    <!-- RESOURCES USED -->
+    <div class="card-dark mb-4">
+        <h2 class="h4 mb-3">🧱 Resources used per Bonus Map</h2>
+        <p>
+            The Captain consumes resources for each Bonus Map he completes:
+        </p>
+        <div class="table-responsive">
+            <table class="table table-dark table-bordered table-striped align-middle mb-0">
+                <thead>
+                <tr>
+                    <th>Bonus Map</th>
+                    <th>EliteBall</th>
+                    <th>Powder</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Ocean Bonus Map</td>
+                    <td>40,000</td>
+                    <td>230</td>
+                </tr>
+                <tr>
+                    <td>Inferno Bonus Map</td>
+                    <td>90,000</td>
+                    <td>550</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- RESTRICTIONS -->
+    <div class="card-dark mb-4">
+        <h2 class="h4 mb-3">⛔ Captain Bonus Map Restrictions</h2>
+        <ul>
+            <li>The rewards are the <strong>static rewards</strong> of the actual Bonus Map. Once finished, players must collect them.</li>
+            <li><strong>Elite Points</strong> gained are the same values as if you did the Bonus Map manually.</li>
+            <li>Players can send the maximum number of Bonus Maps at once according to their Captain level
+                (example: Level 1 can send up to 8 Bonus Maps at the same time, e.g., 5 Inferno + 3 Ocean).</li>
+            <li>The resource cost of each Bonus Map will be shown to the player before sending the Captain.</li>
+        </ul>
+    </div>
+
+    <!-- RULES -->
+    <div class="card-dark mb-4">
+        <h2 class="h4 mb-3">⚖️ Rules</h2>
+        <ul class="mb-0">
+            <li>Captain time will be <strong>stopped</strong> if a player joins Map 1 or Safe Harbor.</li>
+            <li>Once the Captain is sent to do a Bonus Map, the player <strong>cannot join Bonus Maps</strong> until the ones sent are completed.</li>
+            <li>Until the Captain finishes <strong>all</strong> Bonus Maps that the player sent him to do,
+                it will <strong>not</strong> be possible to level up the Captain.</li>
+        </ul>
+    </div>
+
+    <!-- NAVIGATION -->
+    <nav class="page-nav d-flex justify-content-between my-4">
+        <a href="pirate-coins-market.html" class="btn btn-outline-primary">
+            ← Previous : Pirate Coins Market
+        </a>
+        <a href="skill-tree.html" class="btn btn-outline-primary">
+            Next : Skill tree →
+        </a>
+    </nav>
+
+    <footer>
+        <p>Legend Pirates Wiki – Captain Bonus Map System Page.</p>
+    </footer>
+</div>
+
+<!-- Bouton retour en haut -->
+<button id="backToTop" title="Back to top">⬆</button>
+
+<!-- Scripts -->
+<script src="../theme.js"></script>
+<script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script>
+<script>
+    // Back to top
+    document.addEventListener("DOMContentLoaded", () => {
+        const btn = document.getElementById("backToTop");
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 250) btn.classList.add("show");
+            else btn.classList.remove("show");
+        });
+        btn.addEventListener("click", () => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+    });
+</script>
 
 </body>
 </html>

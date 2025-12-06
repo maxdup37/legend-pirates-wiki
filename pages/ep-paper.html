@@ -2,9 +2,363 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>EP Paper – Legend Pirates Wiki</title>
+
+    <!-- Bootstrap -->
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous">
+
+    <!-- CSS global -->
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container d-flex justify-content-between">
+        <a class="navbar-brand" href="../index.html">Legend Pirates Wiki</a>
+        <button id="themeToggle" class="btn btn-sm btn-outline-light">
+            🌙 Mode sombre
+        </button>
+    </div>
+</nav>
+
+<div class="main-container">
+
+    <!-- Intro -->
+    <div class="card-dark mb-4">
+        <h1 class="mb-3">Elite Point Paper (EP Paper)</h1>
+        <p class="mb-0">
+            EP Paper is a special item that can be earned as a reward from NPCs located on the game map
+            within your current elite class. It is obtained under specific conditions, depending on your
+            active elite class and the map you are on.
+        </p>
+        <p class="mt-2 mb-0">
+            To check the conditions under which these items can be obtained, please refer to the
+            dedicated tables and guides for each elite class and map.
+        </p>
+    </div>
+
+    <!-- Features -->
+    <div class="card-dark mb-4">
+        <h2 class="h4 mb-3">⚙️ Features</h2>
+
+        <ul class="mb-0">
+            <li>
+                <strong>Capacity:</strong> Players can hold up to <strong>100 EP Paper</strong> items.
+            </li>
+            <li>
+                <strong>Location in HUD:</strong> EP Paper is listed under the <strong>booster</strong> category.
+            </li>
+            <li>
+                <strong>Usage:</strong> Clicking the item opens a pop-up menu with
+                <em>Use x1</em> and <em>Use All</em> options.
+            </li>
+            <li>
+                <strong>Usage Restriction:</strong> After reaching <strong>Elite Class Level 24</strong>,
+                you can no longer drop EP Paper items.
+            </li>
+        </ul>
+    </div>
+
+    <!-- Availability & Restrictions -->
+    <div class="card-dark mb-4">
+        <h2 class="h4 mb-3">📍 Availability & Restrictions</h2>
+
+        <p>
+            EP Paper can be obtained as a reward from NPCs on maps that match your
+            <strong>current elite class</strong>, as long as the specific drop conditions for that
+            class and map are met.
+        </p>
+
+        <div class="table-responsive mb-3">
+            <table class="table table-dark table-bordered align-middle">
+                <thead>
+                <tr>
+                    <th scope="col">Source</th>
+                    <th scope="col">EP Paper Availability</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>NPCs matching your elite class & map</td>
+                    <td>✅ Can drop EP Paper if conditions are met</td>
+                </tr>
+                <tr>
+                    <td>Tentacle Monster</td>
+                    <td>❌ No EP Paper drop</td>
+                </tr>
+                <tr>
+                    <td>Blizzan Monster</td>
+                    <td>❌ No EP Paper drop</td>
+                </tr>
+                <tr>
+                    <td>Elite Voyager NPCs</td>
+                    <td>❌ No EP Paper drop</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <p class="small text-muted mb-0">
+            EP Paper item is <strong>not available</strong> from Tentacle Monster, Blizzan Monster and
+            Elite Voyager NPCs.
+        </p>
+    </div>
+
+    <!-- Drop Rates -->
+    <div class="card-dark mb-4">
+        <h2 class="h4 mb-3">📈 EP Paper by Elite Class Level</h2>
+
+        <p>
+            The following table shows, for each Elite Class Level, the required Elite Class Points,
+            the map levels where EP Paper can drop, the drop rate from NPCs and the EP Paper you earn when using one.
+        </p>
+
+        <div class="table-responsive">
+            <table class="table table-dark table-striped table-bordered align-middle mb-0">
+                <thead>
+                <tr>
+                    <th scope="col">Elite Class Level</th>
+                    <th scope="col">Elite Class Points</th>
+                    <th scope="col">Map Levels</th>
+                    <th scope="col">EP Paper Drop Rate from NPCs</th>
+                    <th scope="col">EP Paper Earn When Use</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>1 - 12</td>
+                    <td>90%</td>
+                    <td>3.000 - 4.000</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>80.000</td>
+                    <td>2 - 12</td>
+                    <td>88%</td>
+                    <td>4.000 - 5.000</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>145.000</td>
+                    <td>3 - 12</td>
+                    <td>86%</td>
+                    <td>5.000 - 6.000</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>550.000</td>
+                    <td>4 - 12</td>
+                    <td>84%</td>
+                    <td>6.000 - 7.000</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>750.000</td>
+                    <td>5 - 12</td>
+                    <td>82%</td>
+                    <td>7.000 - 8.000</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>1.250.000</td>
+                    <td>5 - 12</td>
+                    <td>80%</td>
+                    <td>8.000 - 9.000</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>2.650.000</td>
+                    <td>6 - 12</td>
+                    <td>78%</td>
+                    <td>9.000 - 10.000</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>3.250.000</td>
+                    <td>6 - 12</td>
+                    <td>76%</td>
+                    <td>10.000 - 11.000</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>4.600.000</td>
+                    <td>7 - 12</td>
+                    <td>74%</td>
+                    <td>11.000 - 12.000</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>6.000.000</td>
+                    <td>7 - 12</td>
+                    <td>72%</td>
+                    <td>12.000 - 13.000</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>9.500.000</td>
+                    <td>8 - 12</td>
+                    <td>65%</td>
+                    <td>13.000 - 14.000</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>13.500.000</td>
+                    <td>8 - 12</td>
+                    <td>62%</td>
+                    <td>14.000 - 15.000</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>19.000.000</td>
+                    <td>9 - 12</td>
+                    <td>59%</td>
+                    <td>15.000 - 16.000</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>25.000.000</td>
+                    <td>9 - 12</td>
+                    <td>56%</td>
+                    <td>16.000 - 17.000</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>31.000.000</td>
+                    <td>10 - 12</td>
+                    <td>53%</td>
+                    <td>17.000 - 18.000</td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td>37.000.000</td>
+                    <td>10 - 12</td>
+                    <td>40%</td>
+                    <td>18.000 - 19.000</td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td>43.000.000</td>
+                    <td>10 - 12</td>
+                    <td>37%</td>
+                    <td>19.000 - 20.000</td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td>49.000.000</td>
+                    <td>10 - 12</td>
+                    <td>34%</td>
+                    <td>20.000 - 21.000</td>
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td>55.500.000</td>
+                    <td>10 - 12</td>
+                    <td>31%</td>
+                    <td>21.000 - 22.000</td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>62.500.000</td>
+                    <td>11 - 12</td>
+                    <td>28%</td>
+                    <td>22.000 - 23.000</td>
+                </tr>
+                <tr>
+                    <td>21</td>
+                    <td>70.000.000</td>
+                    <td>13 - 14</td>
+                    <td>25%</td>
+                    <td>23.000 - 24.000</td>
+                </tr>
+                <tr>
+                    <td>22</td>
+                    <td>90.000.000</td>
+                    <td>13 - 14</td>
+                    <td>22%</td>
+                    <td>24.000 - 25.000</td>
+                </tr>
+                <tr>
+                    <td>23</td>
+                    <td>112.500.000</td>
+                    <td>13 - 14</td>
+                    <td>19%</td>
+                    <td>25.000</td>
+                </tr>
+                <tr>
+                    <td>24</td>
+                    <td>NOT AVAILABLE</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+    <!-- Usage Tips -->
+    <div class="card-dark mb-4">
+        <h2 class="h4 mb-3">💡 Usage Tips</h2>
+        <ul class="mb-0">
+            <li>Try to avoid hitting the capacity limit of 100 to not waste potential drops.</li>
+            <li>Use<strong> All</strong> when you want to push several elite levels quickly.</li>
+            <li>Plan your EP Paper usage around major milestones in your elite class progression.</li>
+            <li>Remember that after elite level 24, you cannot drop new EP Paper items anymore.</li>
+        </ul>
+    </div>
+
+    <!-- Navigation Précédent / Suivant -->
+    <nav class="page-nav d-flex justify-content-between my-4">
+        <a href="special-designs.html" class="btn btn-outline-primary">
+            ← Précédent : Special Designs
+        </a>
+        <a href="chest.html" class="btn btn-outline-primary">
+            Suivant : Chests →
+        </a>
+    </nav>
+
+    <footer>
+        <p>Legend Pirates Wiki – non officiel – page EP Paper.</p>
+    </footer>
+</div>
+
+<!-- Bouton retour en haut -->
+<button id="backToTop" title="Back to top">⬆</button>
+
+<!-- Scripts -->
+<script src="../theme.js"></script>
+<script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+<script>
+    // Back to top button
+    document.addEventListener("DOMContentLoaded", () => {
+        const btn = document.getElementById("backToTop");
+
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 250) {
+                btn.classList.add("show");
+            } else {
+                btn.classList.remove("show");
+            }
+        });
+
+        btn.addEventListener("click", () => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+    });
+</script>
 
 </body>
 </html>
