@@ -163,3 +163,22 @@ footer {
     height: auto;
     border-radius: 12px;
 }
+
+/* Thème sombre */
+body {
+    background-image: url("assets/img/backgrounds/dark.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-color: #020617;
+}
+
+/* Thème clair */
+body.light-theme {
+    background-image: url("assets/img/backgrounds/ecranPirate.png");
+    background-size: cover;          /* garde le plein écran */
+    background-repeat: no-repeat;
+    background-position: center top; /* par ex : privilégier le haut de l'image */
+    background-attachment: fixed;
+}
