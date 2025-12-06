@@ -2,9 +2,427 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Monsters – Legend Pirates Wiki</title>
+
+    <!-- Bootstrap -->
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+    >
+
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container d-flex justify-content-between">
+        <a class="navbar-brand" href="../index.html">Legend Pirates Wiki</a>
+        <button id="themeToggle" class="btn btn-sm btn-outline-light">
+            🌙 Mode sombre
+        </button>
+    </div>
+</nav>
+
+<div class="main-container">
+    <div class="card-dark mb-4">
+        <h2 class="h4 mb-3">Search Monsters</h2>
+
+        <input aria-label="Search" type="text" id="monsterSearch" class="form-control"
+               placeholder="Search by name, map, HP, gold...">
+
+    </div>
+
+    <!-- TITLE / INTRO -->
+    <div class="card-dark mb-4">
+        <h1 class="mb-3">Monsters</h1>
+        <p>
+            Monsters are PvE creatures scattered across the world maps. They provide
+            <strong>Gold</strong>, and sometimes special rewards, when defeated.
+        </p>
+        <p class="mb-0">
+            Below is a list of all known monsters, their <strong>map locations</strong>,
+            <strong>HP ranges</strong>, and <strong>Gold rewards</strong>.
+        </p>
+    </div>
+
+    <!-- MONSTERS TABLE -->
+    <div class="card-dark mb-4">
+        <h2 class="h4 mb-3">Monster List</h2>
+
+        <div class="table-responsive">
+            <table class="table table-dark table-bordered table-striped align-middle mb-0">
+                <thead>
+                <tr>
+                    <th>Monster</th>
+                    <th>Map(s)</th>
+                    <th>HP</th>
+                    <th>Gold</th>
+                    <th>Image</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Stingray</td>
+                    <td>1-1</td>
+                    <td>50 – 200</td>
+                    <td>1,600 – 2,000</td>
+                    <td>
+                        <img src="../assets/img/monsters/10.png" alt="Stingray">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Dolphin</td>
+                    <td>1-1</td>
+                    <td>100 – 300</td>
+                    <td>2,600 – 3,200</td>
+                    <td>
+                        <img src="../assets/img/monsters/11.png" alt="Dolphin">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Shark</td>
+                    <td>1-2</td>
+                    <td>500 – 600</td>
+                    <td>3,200 – 5,600</td>
+                    <td>
+                        <img src="../assets/img/monsters/12.png" alt="Shark">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Seal</td>
+                    <td>2-2</td>
+                    <td>500 – 800</td>
+                    <td>4,800 – 5,600</td>
+                    <td>
+                        <img src="../assets/img/monsters/13.png" alt="Seal">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Fat Shark</td>
+                    <td>2-3</td>
+                    <td>900 – 1,050</td>
+                    <td>5,600 – 10,000</td>
+                    <td>
+                        <img src="../assets/img/monsters/14.png" alt="Fat Shark">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Spotted Stingray</td>
+                    <td>3-4</td>
+                    <td>1,000 – 1,250</td>
+                    <td>10,500 – 16,000</td>
+                    <td>
+                        <img src="../assets/img/monsters/15.png" alt="Spotted Stingray">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Sea Worm</td>
+                    <td>3-4</td>
+                    <td>1,250 – 1,500</td>
+                    <td>16,000 – 20,800</td>
+                    <td>
+                        <img src="../assets/img/monsters/16.png" alt="Sea Worm">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Crocodile</td>
+                    <td>4-5</td>
+                    <td>1,500 – 2,000</td>
+                    <td>20,800 – 28,800</td>
+                    <td>
+                        <img src="../assets/img/monsters/17.png" alt="Crocodile">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Blue Shark</td>
+                    <td>5-6</td>
+                    <td>2,000 – 2,500</td>
+                    <td>28,800 – 32,000</td>
+                    <td>
+                        <img src="../assets/img/monsters/18.png" alt="Blue Shark">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Winged Monster</td>
+                    <td>5-6</td>
+                    <td>2,500 – 3,000</td>
+                    <td>32,000 – 36,000</td>
+                    <td>
+                        <img src="../assets/img/monsters/19.png" alt="Winged Monster">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Striped Shark</td>
+                    <td>6-7</td>
+                    <td>3,000 – 3,500</td>
+                    <td>36,000 – 40,000</td>
+                    <td>
+                        <img src="../assets/img/monsters/20.png" alt="Striped Shark">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Spiky Creature</td>
+                    <td>7-8</td>
+                    <td>3,500 – 4,000</td>
+                    <td>40,000 – 48,000</td>
+                    <td>
+                        <img src="../assets/img/monsters/21.png" alt="Spiky Creature">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Sea Spider</td>
+                    <td>7-8</td>
+                    <td>4,000 – 4,500</td>
+                    <td>48,000 – 56,000</td>
+                    <td>
+                        <img src="../assets/img/monsters/22.png" alt="Sea Spider">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Swamp Monster</td>
+                    <td>8-9-10</td>
+                    <td>4,500 – 5,000</td>
+                    <td>56,000 – 62,500</td>
+                    <td>
+                        <img src="../assets/img/monsters/23.png" alt="Swamp Monster">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pirate Eater</td>
+                    <td>9-10</td>
+                    <td>5,000 – 5,500</td>
+                    <td>62,500 – 68,500</td>
+                    <td>
+                        <img src="../assets/img/monsters/24.png" alt="Pirate Eater">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Drowned Plague</td>
+                    <td>9-10</td>
+                    <td>5,500 – 6,000</td>
+                    <td>68,500 – 75,000</td>
+                    <td>
+                        <img src="../assets/img/monsters/25.png" alt="Drowned Plague">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Plasmoray</td>
+                    <td>11</td>
+                    <td>6,000 – 6,500</td>
+                    <td>78,000 – 83,500</td>
+                    <td>
+                        <img src="../assets/img/monsters/plasmoray.png" alt="Plasmoray">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Kirosaur</td>
+                    <td>11-12</td>
+                    <td>6,500 – 7,000</td>
+                    <td>83,500 – 91,000</td>
+                    <td>
+                        <img src="../assets/img/monsters/Kirosaur.png" alt="Kirosaur">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Vilenna</td>
+                    <td>12</td>
+                    <td>7,000 – 7,500</td>
+                    <td>91,000 – 99,500</td>
+                    <td>
+                        <img src="../assets/img/monsters/Vilenna.png" alt="Vilenna">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Brine</td>
+                    <td>12-13</td>
+                    <td>7,500 – 8,000</td>
+                    <td>99,500 – 107,000</td>
+                    <td>
+                        <img src="../assets/img/monsters/Brine.png" alt="Brine">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Behemoth</td>
+                    <td>13</td>
+                    <td>8,750 – 9,250</td>
+                    <td>120,000 – 130,000</td>
+                    <td>
+                        <img src="../assets/img/monsters/Behemoth.png" alt="Behemoth">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Brood</td>
+                    <td>13-14</td>
+                    <td>10,000 – 10,750</td>
+                    <td>140,000 – 150,000</td>
+                    <td>
+                        <img src="../assets/img/monsters/Brood.png" alt="Brood">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Maw</td>
+                    <td>14</td>
+                    <td>10,750 – 11,500</td>
+                    <td>150,000 – 165,000</td>
+                    <td>
+                        <img src="../assets/img/monsters/Maw.png" alt="Maw">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Aboleth</td>
+                    <td>14</td>
+                    <td>12,000 – 13,000</td>
+                    <td>165,000 – 175,000</td>
+                    <td>
+                        <img src="../assets/img/monsters/Aboleth.png" alt="Aboleth">
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- AGGRESIVE TENTACLE -->
+    <div class="card-dark mb-4">
+        <h2 class="h4 mb-3">Aggresive Tentacle</h2>
+
+        <p>
+            The <strong>Aggresive Tentacle</strong> is a special monster that deals
+            <strong>area-of-effect (AoE) damage</strong> to players and is closely linked to Kraken encounters.
+        </p>
+
+        <h3 class="h5 mt-3">Map Locations</h3>
+        <ul>
+            <li>
+                From <strong>Kraken</strong> &amp; <strong>Abyssal Kraken</strong>:
+                Level <strong>13–14 maps</strong> and PvE: <strong>Kraken Pit</strong>.
+            </li>
+            <li>
+                From <strong>Tentacle</strong>: Level <strong>10–14 maps</strong>
+                after killing <strong>50 Tentacles per map</strong> (each map has its own counter).
+            </li>
+        </ul>
+
+        <h3 class="h5 mt-3">Stats & Rewards</h3>
+        <ul>
+            <li><strong>HP:</strong> 70,000 – 75,000</li>
+            <li><strong>AoE Damage per tile:</strong> 5,000 – 6,000</li>
+            <li><strong>Rewards:</strong>
+                <ul>
+                    <li>x1 Kraken Soul</li>
+                    <li>
+                        x1 Tentacle Meats (dropped on sea)
+                    </li>
+                    <li>
+                        Abyssal Kraken and PvE Dragon Pit Kraken Aggressive Tentacles can drop the same Tentacle Meats.
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+        <h3 class="h5 mt-3">Spawn Rules with Kraken HP</h3>
+        <p>When Abyssal Kraken and Kraken HP drop to certain thresholds:</p>
+        <ul>
+            <li>At 80% HP → 10x Aggresive Tentacle spawn</li>
+            <li>At 60% HP → 10x Aggresive Tentacle spawn</li>
+            <li>At 40% HP → 10x Aggresive Tentacle spawn</li>
+            <li>At 20% HP → 10x Aggresive Tentacle spawn</li>
+        </ul>
+        <br>
+        <img src="../assets/img/monsters/Aggresive_Tentacle_Npc.png" alt="AggresiveTentacle">
+    </div>
+
+    <!-- TENTACLE -->
+    <div class="card-dark mb-4">
+        <h2 class="h4 mb-3">Tentacle</h2>
+
+        <p>
+            Tentacles are special monsters that appear in higher-level maps and are directly
+            tied to the spawning of <strong>Aggresive Tentacles</strong>.
+        </p>
+
+        <h3 class="h5 mt-3">Map Locations</h3>
+        <ul>
+            <li>Level <strong>10–14 maps</strong>.</li>
+        </ul>
+
+        <h3 class="h5 mt-3">Stats & Rewards</h3>
+        <ul>
+            <li><strong>HP:</strong> 15,000 – 17,500</li>
+            <li><strong>Attack:</strong> 1,750 – 2,000</li>
+            <li><strong>Reward:</strong> x1 Kraken Soul</li>
+        </ul>
+
+        <h3 class="h5 mt-3">Spawn Interaction with Aggresive Tentacle</h3>
+        <ul>
+            <li>
+                When you kill <strong>50 Tentacles</strong> on a given map (10–14),
+                <strong>1 Aggresive Tentacle</strong> will spawn:
+                <ul>
+                    <li>On the <strong>same map</strong></li>
+                    <li>At the <strong>position of the last Tentacle killed</strong></li>
+                </ul>
+            </li>
+            <li>
+                Each map (10–14) has its <strong>own independent kill counter</strong>
+                for spawning Aggresive Tentacles.
+            </li>
+        </ul>
+        <br>
+        <img src="../assets/img/monsters/Tentacle_Npc.png" alt="Tentacle_Npc">
+    </div>
+
+    <!-- NAVIGATION -->
+    <nav class="page-nav d-flex justify-content-between my-4">
+        <a href="air-drop.html" class="btn btn-outline-primary">
+            ← Previous : Air Drop
+        </a>
+        <a href="pve-kraken-pit.html" class="btn btn-outline-primary">
+            Next : PvE Kraken Pit →
+        </a>
+    </nav>
+
+    <footer>
+        <p>Legend Pirates Wiki – Monsters Page.</p>
+    </footer>
+</div>
+
+<!-- Bouton retour en haut -->
+<button id="backToTop" title="Back to top">⬆</button>
+
+<!-- Scripts -->
+<script src="../theme.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const btn = document.getElementById("backToTop");
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 250) btn.classList.add("show");
+            else btn.classList.remove("show");
+        });
+        btn.addEventListener("click", () => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+    });
+
+    // Monster Search Filter
+    document.addEventListener("DOMContentLoaded", () => {
+        const searchInput = document.getElementById("monsterSearch");
+        const rows = document.querySelectorAll("table tbody tr");
+
+        searchInput.addEventListener("input", () => {
+            const query = searchInput.value.toLowerCase().trim();
+
+            rows.forEach(row => {
+                const text = row.innerText.toLowerCase();
+                row.style.display = text.includes(query) ? "" : "none";
+            });
+        });
+    });
+
+</script>
 
 </body>
 </html>

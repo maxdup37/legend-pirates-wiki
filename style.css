@@ -6,7 +6,7 @@ body {
     --border-color: rgba(148, 163, 184, 0.25);
     --accent: #38bdf8;
     --accent-soft: #0ea5e9;
-    --muted: #9ca3af;
+    --muted: #e5e7eb;
 
     background-color: var(--bg-color);
     color: var(--text-color);
@@ -21,7 +21,7 @@ body.light-theme {
     --border-color: rgba(15, 23, 42, 0.15);
     --accent: #2563eb;
     --accent-soft: #3b82f6;
-    --muted: #4b5563;
+    --muted: #111827;
 }
 
 /* Conteneur principal */
@@ -38,7 +38,7 @@ body.light-theme {
 }
 
 body.light-theme .navbar-dark {
-    background: linear-gradient(90deg, #e5e7eb, #f9fafb);
+    background: linear-gradient(90deg, #a0a7b5, #a7aab5);
     border-bottom-color: rgba(148, 163, 184, 0.4);
 }
 
@@ -144,4 +144,22 @@ footer {
 #backToTop.show {
     opacity: 1;
     visibility: visible;
+}
+
+/* Texte atténué (infos, notes, etc.), lié au thème */
+.text-muted {
+    color: var(--muted) !important;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
 }

@@ -2,9 +2,964 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Skill Tree – Legend Pirates Wiki</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container d-flex justify-content-between">
+        <a class="navbar-brand" href="../index.html">Legend Pirates Wiki</a>
+        <button id="themeToggle" class="btn btn-sm btn-outline-light">
+            🌙 Mode sombre
+        </button>
+    </div>
+</nav>
+
+<div class="main-container">
+
+    <!-- INTRO -->
+    <div class="card-dark mb-4">
+        <h1 class="mb-3">Skill Tree</h1>
+        <p>
+            There are <strong>3 Basic Skills</strong> and <strong>21 Sub Skills</strong> in the Skill Tree.
+            By investing at least one point into these Basic Skills, players can unlock their respective sub-skills.
+        </p>
+        <ul>
+            <li>Basic skills can be upgraded up to a maximum of <strong>3 levels</strong>.</li>
+            <li>Sub skills can be upgraded up to a maximum of <strong>5 levels</strong>.</li>
+        </ul>
+        <div class="text-center mt-3">
+            <!-- GIF global du skill tree -->
+            <img src="../assets/img/skillsTree/ezgif-27e931d8508ed15f.webp" alt="Skill Tree" class="img-fluid rounded">
+        </div>
+    </div>
+
+    <!-- ======================= -->
+    <!--   1. GRIMOIRE OF CRIT   -->
+    <!-- ======================= -->
+    <div class="card-dark mb-4">
+        <h2 class="mb-3">Grimoire of Critical Hit – BASIC SKILL</h2>
+        <p>
+            This skill is the basic node of a skill tree focused on gaining an advantage against enemy player ships.
+            By activating this skill, you unlock access to its linked sub skills. You must add at least <strong>1 point</strong> to proceed.
+        </p>
+        <div class="text-center mb-3">
+            <img src="../assets/img/skillsTree/1-Grimore_of_Critical_Hit.png" alt="Grimoire of Critical Hit" class="img-fluid rounded">
+        </div>
+
+        <div class="table-responsive mb-4">
+            <table class="table table-dark table-bordered table-striped align-middle">
+                <thead>
+                <tr>
+                    <th>Skill Information</th>
+                    <th>Tier 1</th>
+                    <th>Tier 2</th>
+                    <th>Tier 3</th>
+                    <th>Tier 4</th>
+                    <th>Tier 5</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Increase Cannonball Critical Hit Chance against Player</td>
+                    <td>+2%</td>
+                    <td>+3%</td>
+                    <td>+5%</td>
+                    <td>+10%</td>
+                    <td>+20%</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Missile Enhancer -->
+        <h3 class="h4 mb-2">Missile Enhancer – Sub Skill</h3>
+        <p>A skill that gradually increases your rocket damage against players.</p>
+        <div class="text-center mb-3">
+            <img src="../assets/img/skillsTree/1-Missile_Enhancer.png" alt="Missile Enhancer" class="img-fluid rounded">
+        </div>
+        <div class="table-responsive mb-4">
+            <table class="table table-dark table-bordered table-striped align-middle">
+                <thead>
+                <tr>
+                    <th>Skill Information</th>
+                    <th>Tier 1</th>
+                    <th>Tier 2</th>
+                    <th>Tier 3</th>
+                    <th>Tier 4</th>
+                    <th>Tier 5</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Rocket Damage against Players</td>
+                    <td>+5%</td>
+                    <td>+10%</td>
+                    <td>+15%</td>
+                    <td>+20%</td>
+                    <td>+33%</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Explosive Essence -->
+        <h3 class="h4 mb-2">Explosive Essence – Sub Skill</h3>
+        <p>When the Blackpowder item is activated, damage power increases against players and war island towers.</p>
+        <div class="text-center mb-3">
+            <img src="../assets/img/skillsTree/2-Explosive_Essence.png" alt="Explosive Essence" class="img-fluid rounded">
+        </div>
+        <div class="table-responsive mb-4">
+            <table class="table table-dark table-bordered table-striped align-middle">
+                <thead>
+                <tr>
+                    <th>Skill Information</th>
+                    <th>Tier 1</th>
+                    <th>Tier 2</th>
+                    <th>Tier 3</th>
+                    <th>Tier 4</th>
+                    <th>Tier 5</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Increase Black Powder Damage against Player &amp; Towers</td>
+                    <td>+3%</td>
+                    <td>+6%</td>
+                    <td>+8%</td>
+                    <td>+14%</td>
+                    <td>+20%</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Agni's Wrath -->
+        <h3 class="h4 mb-2">Agni's Wrath – Sub Skill</h3>
+        <p>Increases your cannon damage against system ships (NPCs) in the game.</p>
+        <div class="text-center mb-3">
+            <img src="../assets/img/skillsTree/3-Agnis_Wrath.png" alt="Agni's Wrath" class="img-fluid rounded">
+        </div>
+        <div class="table-responsive mb-4">
+            <table class="table table-dark table-bordered table-striped align-middle">
+                <thead>
+                <tr>
+                    <th>Skill Information</th>
+                    <th>Tier 1</th>
+                    <th>Tier 2</th>
+                    <th>Tier 3</th>
+                    <th>Tier 4</th>
+                    <th>Tier 5</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Increase your cannon damage against system ships</td>
+                    <td>+1%</td>
+                    <td>+2%</td>
+                    <td>+4%</td>
+                    <td>+6%</td>
+                    <td>+10%</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Monster Eviscerator -->
+        <h3 class="h4 mb-2">Monster Eviscerator – Sub Skill</h3>
+        <p>Increases the critical fire chance of harpoons against monsters.</p>
+        <div class="text-center mb-3">
+            <img src="../assets/img/skillsTree/4-Monster_Eviscerator.png" alt="Monster Eviscerator" class="img-fluid rounded">
+        </div>
+        <div class="table-responsive mb-4">
+            <table class="table table-dark table-bordered table-striped align-middle">
+                <thead>
+                <tr>
+                    <th>Skill Information</th>
+                    <th>Tier 1</th>
+                    <th>Tier 2</th>
+                    <th>Tier 3</th>
+                    <th>Tier 4</th>
+                    <th>Tier 5</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Increase Harpoon critical hit chance</td>
+                    <td>+2%</td>
+                    <td>+4%</td>
+                    <td>+6%</td>
+                    <td>+8%</td>
+                    <td>+10%</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Swift Flame -->
+        <h3 class="h4 mb-2">Swift Flame – Sub Skill</h3>
+        <p>
+            Decreases harpoon rifle cooldown against monsters.<br>
+            <em>Negative effect:</em> starting from Tier 2, your harpoon damage gradually decreases up to Tier 5.
+        </p>
+        <div class="text-center mb-3">
+            <img src="../assets/img/skillsTree/5-Swift_Flame.png" alt="Swift Flame" class="img-fluid rounded">
+        </div>
+        <div class="table-responsive mb-4">
+            <table class="table table-dark table-bordered table-striped align-middle">
+                <thead>
+                <tr>
+                    <th>Skill Information</th>
+                    <th>Tier 1</th>
+                    <th>Tier 2</th>
+                    <th>Tier 3</th>
+                    <th>Tier 4</th>
+                    <th>Tier 5</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Decrease the Harpoons Cooldown</td>
+                    <td>-0.5 sec</td>
+                    <td>-0.75 sec</td>
+                    <td>-1.0 sec</td>
+                    <td>-1.25 sec</td>
+                    <td>-1.50 sec</td>
+                </tr>
+                <tr>
+                    <td>Decrease the Harpoon Damage</td>
+                    <td></td>
+                    <td>-8%</td>
+                    <td>-15%</td>
+                    <td>-30%</td>
+                    <td>-50%</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Hunter's Fire -->
+        <h3 class="h4 mb-2">Hunter's Fire – Sub Skill</h3>
+        <p>Decreases rocket cooldown time against players.</p>
+        <div class="text-center mb-3">
+            <img src="../assets/img/skillsTree/6-Hunters_Fire.png" alt="Hunter's Fire" class="img-fluid rounded">
+        </div>
+        <div class="table-responsive mb-4">
+            <table class="table table-dark table-bordered table-striped align-middle">
+                <thead>
+                <tr>
+                    <th>Skill Information</th>
+                    <th>Tier 1</th>
+                    <th>Tier 2</th>
+                    <th>Tier 3</th>
+                    <th>Tier 4</th>
+                    <th>Tier 5</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Decrease Rockets reload time against players</td>
+                    <td>-1 sec</td>
+                    <td>-1.50 sec</td>
+                    <td>-2 sec</td>
+                    <td>-2.50 sec</td>
+                    <td>-3.50 sec</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Fist of Agnis -->
+        <h3 class="h4 mb-2">Fist of Agnis – Sub Skill</h3>
+        <p>Increases cannon damage and critical chance against players.</p>
+        <div class="text-center mb-3">
+            <img src="../assets/img/skillsTree/7-Fist_of_Agnis.png" alt="Fist of Agnis" class="img-fluid rounded">
+        </div>
+        <div class="table-responsive mb-4">
+            <table class="table table-dark table-bordered table-striped align-middle">
+                <thead>
+                <tr>
+                    <th>Skill Information</th>
+                    <th>Tier 1</th>
+                    <th>Tier 2</th>
+                    <th>Tier 3</th>
+                    <th>Tier 4</th>
+                    <th>Tier 5</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Increased Cannon Damage against players</td>
+                    <td>2%</td>
+                    <td>5%</td>
+                    <td>9%</td>
+                    <td>14%</td>
+                    <td>20%</td>
+                </tr>
+                <tr>
+                    <td>Increased Cannon Critical Chance against players</td>
+                    <td>2%</td>
+                    <td>4%</td>
+                    <td>6%</td>
+                    <td>10%</td>
+                    <td>15%</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- ======================= -->
+    <!--   2. POISON BLADE       -->
+    <!-- ======================= -->
+    <div class="card-dark mb-4">
+        <h2 class="mb-3">Poison Blade – BASIC SKILL</h2>
+        <p>
+            Basic skill focused on gaining an advantage against enemy players (War Pirates). Unlocks linked sub skills when at least 1 point is added.
+        </p>
+        <div class="text-center mb-3">
+            <img src="../assets/img/skillsTree/2-Poison_Blade.png" alt="Hunter's Fire" class="img-fluid rounded">
+        </div>
+        <div class="table-responsive mb-4">
+            <table class="table table-dark table-bordered table-striped align-middle">
+                <thead>
+                <tr>
+                    <th>Skill Information</th>
+                    <th>Tier 1</th>
+                    <th>Tier 2</th>
+                    <th>Tier 3</th>
+                    <th>Tier 4</th>
+                    <th>Tier 5</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Increased the damage power of War Pirates</td>
+                    <td>+3%</td>
+                    <td>+7%</td>
+                    <td>+12%</td>
+                    <td>+18%</td>
+                    <td>+25%</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Liquid Barrier -->
+        <h3 class="h4 mb-2">Liquid Barrier – Sub Skill</h3>
+        <p>Reduces enemy players rocket damage.</p>
+        <div class="text-center mb-3">
+            <img src="../assets/img/skillsTree/1-Liquid_Barrier.png" alt="Hunter's Fire" class="img-fluid rounded">
+        </div>
+        <div class="table-responsive mb-4">
+            <table class="table table-dark table-bordered table-striped align-middle">
+                <thead>
+                <tr>
+                    <th>Skill Information</th>
+                    <th>Tier 1</th>
+                    <th>Tier 2</th>
+                    <th>Tier 3</th>
+                    <th>Tier 4</th>
+                    <th>Tier 5</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Reduces enemy players rocket damage</td>
+                    <td>5%</td>
+                    <td>10%</td>
+                    <td>15%</td>
+                    <td>20%</td>
+                    <td>30%</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Nereid Shield -->
+        <h3 class="h4 mb-2">Nereid Shield – Sub Skill</h3>
+        <p>When Protective Shield item is activated, protection power increases against Players &amp; Towers.</p>
+        <div class="text-center mb-3">
+            <img src="../assets/img/skillsTree/2-Nereid_Shield.png" alt="Hunter's Fire" class="img-fluid rounded">
+        </div>
+        <div class="table-responsive mb-4">
+            <table class="table table-dark table-bordered table-striped align-middle">
+                <thead>
+                <tr>
+                    <th>Skill Information</th>
+                    <th>Tier 1</th>
+                    <th>Tier 2</th>
+                    <th>Tier 3</th>
+                    <th>Tier 4</th>
+                    <th>Tier 5</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Increase Protective Shield protection against Player &amp; Towers</td>
+                    <td>3%</td>
+                    <td>6%</td>
+                    <td>8%</td>
+                    <td>14%</td>
+                    <td>20%</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Atlantean Hammer -->
+        <h3 class="h4 mb-2">Atlantean Hammer – Sub Skill</h3>
+        <p>
+            Increases ship repairing value.<br>
+            <em>Positive effect:</em> starting from Tier 1, ship repairing time decreases up to Tier 5.
+        </p>
+        <div class="text-center mb-3">
+            <img src="../assets/img/skillsTree/3-Atlantean_Hammer.png" alt="Hunter's Fire" class="img-fluid rounded">
+        </div>
+        <div class="table-responsive mb-4">
+            <table class="table table-dark table-bordered table-striped align-middle">
+                <thead>
+                <tr>
+                    <th>Skill Information</th>
+                    <th>Tier 1</th>
+                    <th>Tier 2</th>
+                    <th>Tier 3</th>
+                    <th>Tier 4</th>
+                    <th>Tier 5</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Increased Ship Repairing Value</td>
+                    <td>10%</td>
+                    <td>15%</td>
+                    <td>20%</td>
+                    <td>30%</td>
+                    <td>40%</td>
+                </tr>
+                <tr>
+                    <td>Decreased Ship Repairing Time</td>
+                    <td>-0.1 sec</td>
+                    <td>-0.2 sec</td>
+                    <td>-0.3 sec</td>
+                    <td>-0.4 sec</td>
+                    <td>-0.5 sec</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Sea Monster Destroyer -->
+        <h3 class="h4 mb-2">Sea Monster Destroyer – Sub Skill</h3>
+        <p>Increases Harpoon damage.</p>
+        <div class="text-center mb-3">
+            <img src="../assets/img/skillsTree/4-Sea_Monster_Destroyer.png" alt="Hunter's Fire" class="img-fluid rounded">
+        </div>
+        <div class="table-responsive mb-4">
+            <table class="table table-dark table-bordered table-striped align-middle">
+                <thead>
+                <tr>
+                    <th>Skill Information</th>
+                    <th>Tier 1</th>
+                    <th>Tier 2</th>
+                    <th>Tier 3</th>
+                    <th>Tier 4</th>
+                    <th>Tier 5</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Increase Harpoon Damage</td>
+                    <td>5%</td>
+                    <td>10%</td>
+                    <td>15%</td>
+                    <td>20%</td>
+                    <td>30%</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Vital Source -->
+        <h3 class="h4 mb-2">Vital Source – Sub Skill</h3>
+        <p>
+            Increases Ship Base Hit Points.<br>
+            <em>Negative effect:</em> starting from Tier 4, ship speed decreases up to Tier 5.
+        </p>
+        <div class="text-center mb-3">
+            <img src="../assets/img/skillsTree/5-Vital_Source.png" alt="Hunter's Fire" class="img-fluid rounded">
+        </div>
+        <div class="table-responsive mb-4">
+            <table class="table table-dark table-bordered table-striped align-middle">
+                <thead>
+                <tr>
+                    <th>Skill Information</th>
+                    <th>Tier 1</th>
+                    <th>Tier 2</th>
+                    <th>Tier 3</th>
+                    <th>Tier 4</th>
+                    <th>Tier 5</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Increase Ship Hit Point</td>
+                    <td>+5,000 HP</td>
+                    <td>+10,000 HP</td>
+                    <td>+15,000 HP</td>
+                    <td>+20,000 HP</td>
+                    <td>+35,000 HP</td>
+                </tr>
+                <tr>
+                    <td>Decrease Ship Speed</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>-1% speed</td>
+                    <td>-3% speed</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Eyes of Revenge -->
+        <h3 class="h4 mb-2">Eyes of Revenge – Sub Skill</h3>
+        <p>
+            Reflects incoming cannonball damage with a chance against players.<br>
+            <em>Negative effect:</em> starting from Tier 3, Cannon Reload increases up to Tier 5.
+        </p>
+        <p class="small text-muted">
+            Note: This skill activates the first reflect damage along with Tier 3 level to keep the game's combat mechanics stable.
+        </p>
+        <div class="text-center mb-3">
+            <img src="../assets/img/skillsTree/6-Eyes_of_Revenge.png" alt="Hunter's Fire" class="img-fluid rounded">
+        </div>
+        <div class="table-responsive mb-4">
+            <table class="table table-dark table-bordered table-striped align-middle">
+                <thead>
+                <tr>
+                    <th>Skill Information</th>
+                    <th>Tier 1</th>
+                    <th>Tier 2</th>
+                    <th>Tier 3</th>
+                    <th>Tier 4</th>
+                    <th>Tier 5</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Reflect incoming Cannonball damage to players</td>
+                    <td>0%</td>
+                    <td>0%</td>
+                    <td>2%</td>
+                    <td>6%</td>
+                    <td>10%</td>
+                </tr>
+                <tr>
+                    <td>Reflect Chance of the Cannonball effect</td>
+                    <td>5%</td>
+                    <td>10%</td>
+                    <td>30%</td>
+                    <td>60%</td>
+                    <td>100%</td>
+                </tr>
+                <tr>
+                    <td>Cannon Reload Increase</td>
+                    <td></td>
+                    <td></td>
+                    <td>+0.25 sec</td>
+                    <td>+0.50 sec</td>
+                    <td>+0.75 sec</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Wave Gunner -->
+        <h3 class="h4 mb-2">Wave Gunner – Sub Skill</h3>
+        <p>
+            Increases Cannon Range against players, and from Tier 4 decreases cannon reload time.<br>
+            <em>Negative effect:</em> starting from Tier 3, Cannon Damage decreases gradually up to Tier 5.
+        </p>
+        <div class="text-center mb-3">
+            <img src="../assets/img/skillsTree/7-Wave_Gunner.png" alt="Hunter's Fire" class="img-fluid rounded">
+        </div>
+        <div class="table-responsive mb-4">
+            <table class="table table-dark table-bordered table-striped align-middle">
+                <thead>
+                <tr>
+                    <th>Skill Information</th>
+                    <th>Tier 1</th>
+                    <th>Tier 2</th>
+                    <th>Tier 3</th>
+                    <th>Tier 4</th>
+                    <th>Tier 5</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Increase Cannon Range against Player</td>
+                    <td>+1 range</td>
+                    <td>+2 range</td>
+                    <td>+2 range</td>
+                    <td>+3 range</td>
+                    <td>+3 range</td>
+                </tr>
+                <tr>
+                    <td>Cannon Reload Decrease</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>-0.25 sec</td>
+                    <td>-0.50 sec</td>
+                </tr>
+                <tr>
+                    <td>Cannon Damage</td>
+                    <td></td>
+                    <td></td>
+                    <td>-10%</td>
+                    <td>-8%</td>
+                    <td>-5%</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- ======================= -->
+    <!--   3. EXTRA EXPERIENCE   -->
+    <!-- ======================= -->
+    <div class="card-dark mb-4">
+        <h2 class="mb-3">Extra Experience – BASIC SKILL</h2>
+        <p>
+            Basic skill focused on gaining an advantage for earning Experience Points from NPCs. Unlocks linked sub skills when at least 1 point is added.
+        </p>
+        <div class="text-center mb-3">
+            <img src="../assets/img/skillsTree/3-Experience_of_Ritual.png" alt="Hunter's Fire" class="img-fluid rounded">
+        </div>
+        <div class="table-responsive mb-4">
+            <table class="table table-dark table-bordered table-striped align-middle">
+                <thead>
+                <tr>
+                    <th>Skill Information</th>
+                    <th>Tier 1</th>
+                    <th>Tier 2</th>
+                    <th>Tier 3</th>
+                    <th>Tier 4</th>
+                    <th>Tier 5</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Gives more Experience Points when sinking NPC ships</td>
+                    <td>+2% XP</td>
+                    <td>+3% XP</td>
+                    <td>+5% XP</td>
+                    <td>+7% XP</td>
+                    <td>+10% XP</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Hunting Relics -->
+        <h3 class="h4 mb-2">Hunting Relics – Sub Skill</h3>
+        <p>Increases gold earned when killing monsters.</p>
+        <div class="text-center mb-3">
+            <img src="../assets/img/skillsTree/1-Hunting_Relics.png" alt="Hunter's Fire" class="img-fluid rounded">
+        </div>
+        <div class="table-responsive mb-4">
+            <table class="table table-dark table-bordered table-striped align-middle">
+                <thead>
+                <tr>
+                    <th>Skill Information</th>
+                    <th>Tier 1</th>
+                    <th>Tier 2</th>
+                    <th>Tier 3</th>
+                    <th>Tier 4</th>
+                    <th>Tier 5</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Increase earning gold when killing Monsters</td>
+                    <td>+2% Gold</td>
+                    <td>+5% Gold</td>
+                    <td>+10% Gold</td>
+                    <td>+15% Gold</td>
+                    <td>+20% Gold</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Midas Touch -->
+        <h3 class="h4 mb-2">Midas Touch – Sub Skill</h3>
+        <p>Increases gold earned when sinking NPC ships.</p>
+        <div class="text-center mb-3">
+            <img src="../assets/img/skillsTree/2-Midas_Touch.png" alt="Hunter's Fire" class="img-fluid rounded">
+        </div>
+        <div class="table-responsive mb-4">
+            <table class="table table-dark table-bordered table-striped align-middle">
+                <thead>
+                <tr>
+                    <th>Skill Information</th>
+                    <th>Tier 1</th>
+                    <th>Tier 2</th>
+                    <th>Tier 3</th>
+                    <th>Tier 4</th>
+                    <th>Tier 5</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Increase earning gold when sinking NPCs</td>
+                    <td>+2% Gold</td>
+                    <td>+5% Gold</td>
+                    <td>+10% Gold</td>
+                    <td>+15% Gold</td>
+                    <td>+20% Gold</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Marauder's Hearth -->
+        <h3 class="h4 mb-2">Marauder's Hearth – Sub Skill</h3>
+        <p>Increases gold earned when boarding players.</p>
+        <div class="text-center mb-3">
+            <img src="../assets/img/skillsTree/3-Marauders_Heart.png" alt="Hunter's Fire" class="img-fluid rounded">
+        </div>
+        <div class="table-responsive mb-4">
+            <table class="table table-dark table-bordered table-striped align-middle">
+                <thead>
+                <tr>
+                    <th>Skill Information</th>
+                    <th>Tier 1</th>
+                    <th>Tier 2</th>
+                    <th>Tier 3</th>
+                    <th>Tier 4</th>
+                    <th>Tier 5</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Increase earning gold when boarding players</td>
+                    <td>+2% Gold</td>
+                    <td>+5% Gold</td>
+                    <td>+10% Gold</td>
+                    <td>+15% Gold</td>
+                    <td>+20% Gold</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Gain of the Tides -->
+        <h3 class="h4 mb-2">Gain of the Tides – Sub Skill</h3>
+        <p>
+            Activates Elite Points earning when using Healing Cannonball and increases Healing Cannonball damage.<br>
+            <em>Positive effect:</em> starting from Tier 3, Healing Cannon Range is increased up to Tier 5.<br>
+            <strong>Daily elite point earnable limit from Healing Cannonball: 200,000 Elite Points.</strong>
+        </p>
+        <div class="text-center mb-3">
+            <img src="../assets/img/skillsTree/4-Gain_of_the_Tides.png" alt="Hunter's Fire" class="img-fluid rounded">
+        </div>
+        <div class="table-responsive mb-4">
+            <table class="table table-dark table-bordered table-striped align-middle">
+                <thead>
+                <tr>
+                    <th>Skill Information</th>
+                    <th>Tier 1</th>
+                    <th>Tier 2</th>
+                    <th>Tier 3</th>
+                    <th>Tier 4</th>
+                    <th>Tier 5</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Activate Elite Points earning from Healing Cannonball</td>
+                    <td>10% EP</td>
+                    <td>20% EP</td>
+                    <td>40% EP</td>
+                    <td>70% EP</td>
+                    <td>100% EP</td>
+                </tr>
+                <tr>
+                    <td>Increase Healing Cannonball Damage</td>
+                    <td>+30% Damage</td>
+                    <td>+50% Damage</td>
+                    <td>+75% Damage</td>
+                    <td>+90% Damage</td>
+                    <td>+100% Damage</td>
+                </tr>
+                <tr>
+                    <td>Increase Healing Cannon Range</td>
+                    <td></td>
+                    <td></td>
+                    <td>+1 Heal Range</td>
+                    <td>+2 Heal Range</td>
+                    <td>+3 Heal Range</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Master of the Sea Winds -->
+        <h3 class="h4 mb-2">Master of the Sea Winds – Sub Skill</h3>
+        <p>
+            Increases ship speed.<br>
+            <em>Bonus effect:</em> at Tier 5, removes destroyed sail speed negative effect.
+        </p>
+        <div class="text-center mb-3">
+            <img src="../assets/img/skillsTree/5-Master_of_the_Sea_Winds.png" alt="Hunter's Fire" class="img-fluid rounded">
+        </div>
+        <div class="table-responsive mb-4">
+            <table class="table table-dark table-bordered table-striped align-middle">
+                <thead>
+                <tr>
+                    <th>Skill Information</th>
+                    <th>Tier 1</th>
+                    <th>Tier 2</th>
+                    <th>Tier 3</th>
+                    <th>Tier 4</th>
+                    <th>Tier 5</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Increase Ship speed</td>
+                    <td>+2% Speed</td>
+                    <td>+4% Speed</td>
+                    <td>+6% Speed</td>
+                    <td>+8% Speed</td>
+                    <td>+10% Speed</td>
+                </tr>
+                <tr>
+                    <td>Removing Destroyed Sail negative speed</td>
+                    <td>–</td>
+                    <td>–</td>
+                    <td>–</td>
+                    <td>–</td>
+                    <td>Active</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Respawn Prosperity -->
+        <h3 class="h4 mb-2">Respawn Prosperity – Sub Skill</h3>
+        <p>Increases Ship Respawn Hit Points.</p>
+        <div class="text-center mb-3">
+            <img src="../assets/img/skillsTree/6-Respawn_Prosperity.png" alt="Hunter's Fire" class="img-fluid rounded">
+        </div>
+        <div class="table-responsive mb-4">
+            <table class="table table-dark table-bordered table-striped align-middle">
+                <thead>
+                <tr>
+                    <th>Skill Information</th>
+                    <th>Tier 1</th>
+                    <th>Tier 2</th>
+                    <th>Tier 3</th>
+                    <th>Tier 4</th>
+                    <th>Tier 5</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Increase Ship Respawn Hit Point</td>
+                    <td>+1,000 HP</td>
+                    <td>+2,000 HP</td>
+                    <td>+3,000 HP</td>
+                    <td>+4,000 HP</td>
+                    <td>+10,000 HP</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Battle Master -->
+        <h3 class="h4 mb-2">Battle Master – Sub Skill</h3>
+        <p>
+            Increases earning Battle Points from players.<br>
+            <em>Positive effect:</em> starting from Tier 3, increases earning Season Points from players up to Tier 5.
+        </p>
+        <div class="text-center mb-3">
+            <img src="../assets/img/skillsTree/7-Battle_Master.png" alt="Hunter's Fire" class="img-fluid rounded">
+        </div>
+        <div class="table-responsive mb-4">
+            <table class="table table-dark table-bordered table-striped align-middle">
+                <thead>
+                <tr>
+                    <th>Skill Information</th>
+                    <th>Tier 1</th>
+                    <th>Tier 2</th>
+                    <th>Tier 3</th>
+                    <th>Tier 4</th>
+                    <th>Tier 5</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Increase earning Battle Points from players</td>
+                    <td>+1 point</td>
+                    <td>+2 points</td>
+                    <td>+2 points</td>
+                    <td>+2 points</td>
+                    <td>+3 points</td>
+                </tr>
+                <tr>
+                    <td>Increase earning Season Points from players</td>
+                    <td></td>
+                    <td></td>
+                    <td>+1 point</td>
+                    <td>+2 points</td>
+                    <td>+3 points</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- NAVIGATION -->
+    <nav class="page-nav d-flex justify-content-between my-4">
+        <a href="start-equipment.html" class="btn btn-outline-primary">
+            ← Previous : Start Equipment
+        </a>
+        <a href="skill-guide.html" class="btn btn-outline-primary">
+            Next : Skill Guide →
+        </a>
+    </nav>
+
+    <footer>
+        <p>Legend Pirates Wiki – Skill Tree Page.</p>
+    </footer>
+</div>
+
+<!-- Bouton retour en haut -->
+<button id="backToTop" title="Back to top">⬆</button>
+
+<!-- Scripts -->
+<script src="../theme.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    // Back to top
+    document.addEventListener("DOMContentLoaded", () => {
+        const btn = document.getElementById("backToTop");
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 250) btn.classList.add("show");
+            else btn.classList.remove("show");
+        });
+        btn.addEventListener("click", () => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+    });
+</script>
 
 </body>
 </html>
